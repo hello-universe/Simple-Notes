@@ -1,0 +1,54 @@
+.my_nav{
+    background-color: green;
+}
+h2{
+    text-align: center;
+}
+.outermost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    width: 50vw;
+    height: 24.5vh;
+    border: solid #606C5D 2px;
+}
+h3{
+    margin-left: 1rem;
+}
+.inner{
+    width: 47.5vw;
+    height: 11.5vh;
+    border: solid #AAC8A7 2px;
+    position: relative;
+    left: 1rem;
+}
+.my_btn{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+@media (max-width: 950px){
+    .inner{
+        width: 45vw;
+    }
+}
+@media (max-width: 600px){
+    .outer{
+        height: 23.5vh;
+    }
+}
+.search_btn{
+    background-color: #FF2171;
+    color: white;
+}
+.search_btn:hover{
+    background-color: #E90064;
+}
+.inside-parent{
+    display: flex;
+    flex-direction: row;
+}
+h4{
+    margin-left: 2%;
+}
